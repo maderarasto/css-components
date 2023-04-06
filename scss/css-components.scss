@@ -14,3 +14,13 @@ $default-border-color: #ccc;
     color: $black-color;
     box-sizing: border-box;
 }
+
+// Button component
+.button {
+    padding: 0.5em 1em;
+    border: 1px solid $default-border-color;
+    background-color:$default-bg-color;
+    font-size: 16px;
+    user-select: none;
+    cursor: pointer;
+}
