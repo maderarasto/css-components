@@ -1,2 +1,5 @@
 /.vscode
-..gitignore.swp
+/dist
+
+.gitignore.swp
+
