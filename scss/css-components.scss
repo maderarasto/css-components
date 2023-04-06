@@ -23,4 +23,27 @@ $default-border-color: #ccc;
     font-size: 16px;
     user-select: none;
     cursor: pointer;
+
+    &.small {
+        font-size: 12px;
+    }
+
+    &.large {
+        font-size: 20px;
+    }
+
+    &:hover {
+        background-color: $default-highlight-bg-color;
+        border-color: #c2c2c2; 
+    }
+
+    &:active {
+        background-color: $default-active-bg-color;
+        border-color: #b8b8b8;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        pointer-events: none;
+    }
 }
